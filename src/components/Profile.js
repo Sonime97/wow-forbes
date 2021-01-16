@@ -27,7 +27,9 @@ import {Table,Form,FormGroup, FormControl,Button} from 'react-bootstrap'
     options={option}
     />
     <div></div>
-    <Table striped bordered hover className="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+<div className="row">
+ <div className="col-sm-12">
+<Table striped bordered hover>
   <thead>
     <tr>
       <th>Name</th>
@@ -54,6 +56,8 @@ import {Table,Form,FormGroup, FormControl,Button} from 'react-bootstrap'
     }
     </tbody>
 </Table>
+</div>
+</div>
 </div>
   </div>)
    }
