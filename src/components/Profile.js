@@ -26,7 +26,7 @@ import {Table,Form,FormGroup, FormControl,Button} from 'react-bootstrap'
     options={option}
     />
     <div></div>
-    <Table striped bordered hover>
+    <Table striped bordered hover className="col-sm-12 col-xs-12 col-md-12 col-lg-12">
   <thead>
     <tr>
       <th>Name</th>
