@@ -21,7 +21,8 @@ import {Table,Form,FormGroup, FormControl,Button} from 'react-bootstrap'
     
      return (
 <div className="container">
-   <Select value={this.state.selectedOption.value}
+   <div className="container">
+      <Select value={this.state.selectedOption.value}
     onChange={this.handleChange.bind(this)}
     options={option}
     />
@@ -53,6 +54,7 @@ import {Table,Form,FormGroup, FormControl,Button} from 'react-bootstrap'
     }
     </tbody>
 </Table>
+</div>
   </div>)
    }
  }
