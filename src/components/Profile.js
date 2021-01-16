@@ -49,7 +49,7 @@ import {Table,Form,FormGroup, FormControl,Button} from 'react-bootstrap'
         <td>{items.rank}</td>
         <td>{items.source}</td>
         <td>{items.bios}</td>
-        <td><img className="contain" src={items.squareImage} alt='image failed to load'/></td>
+        <td><img className="img-responsive" src={items.squareImage} alt='image failed to load'/></td>
       </tr>)
       }
     })
