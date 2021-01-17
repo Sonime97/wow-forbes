@@ -28,7 +28,7 @@ import {Table,Form,FormGroup, FormControl,Button} from 'react-bootstrap'
     />
     <div></div>
 <div className="row">
- <div className="col-sm-12">
+ <div className=" col-xs-12 col-sm-12">
 <Table striped bordered hover>
   <thead>
     <tr>
@@ -49,7 +49,7 @@ import {Table,Form,FormGroup, FormControl,Button} from 'react-bootstrap'
         <td>{items.rank}</td>
         <td>{items.source}</td>
         <td>{items.bios}</td>
-        <td><div className="container"><img className="img-responsive" src={items.squareImage} alt='image failed to load'/></div></td>
+        <td><div className="img-container"><img className="img-responsive" src={items.squareImage} alt='image failed to load'/></div></td>
       </tr>)
       }
     })
