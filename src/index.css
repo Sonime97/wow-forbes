@@ -10,4 +10,6 @@ body {
 .red-border {border: 2px solid red;}
 .slick-slider img {
   margin: 0 auto}
-img {margin 0 auto;}
+img {margin 0 auto;
+     max-width: 100%;
+     max-height: 100%}
